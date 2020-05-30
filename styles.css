@@ -116,25 +116,27 @@ input[type=submit]:hover {
 a {
   text-decoration: none;
   display: inline-block;
-  padding: 8px 16px;
 }
 
 a:hover {
-  background-color: #ddd;
+  background-color: #cfcfcf;
   color: black;
 }
 
 .previous {
-  background-color: #f1f1f1;
+  padding: 8px 16px;
+  background-color: #cfcfcf;
   color: black;
 }
 
 .next {
-  background-color: #4CAF50;
-  color: white;
+  padding: 8px 16px;
+  background-color: #cfcfcf;
+  color: black;
 }
 
 .round {
+  padding: 8px 16px;
   border-radius: 50%;
 }
 .slide-buttons{
