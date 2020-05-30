@@ -29,7 +29,6 @@ height: auto;
 .hero{
   display: flex;
   justify-content: center;
-  align-items: center;
 overflow: hidden;
 -webkit-box-shadow: -2px -3px 39px 5px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px -3px 39px 5px rgba(0,0,0,0.75);
