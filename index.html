@@ -1,0 +1,163 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Viking Wood</title>
+    <meta name="description" content="We would like to invite you to our big day.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Olivers website">
+    <meta property="og:description" content="This is Oliver's website">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="hero">
+    <h1>Viking Wood</h1>
+    <img src="https://mocah.org/uploads/posts/528468-carving-instruments.jpg"></img>
+</section>
+<section class="general">
+    <h1 class="section-title">General Carpentry</h1>
+    <div class="slideshow-shadow">
+    <img class="nature" src="images/anvil.jpg" width="100%">
+    <img class="nature" src="images/sail-boat.jpg" width="100%">
+    <img class="nature" src="images/blacksmith.jpg" width="100%">
+    <div class="slide-buttons">
+        <div>
+            <a onclick="myShow.previous()" class="previous round">&#8249;</a>
+        </div>
+        <div>
+            <a onclick="myShow.next()" class="next round">&#8250;</a>
+        </div>
+      </div>
+  </div>
+
+    
+    <script>
+    myShow = w3.slideshow(".nature", 0);
+    </script>
+
+        
+</section>
+
+<section class="steel-work">
+    <h1 class="section-title">Steel Work</h1>
+    <div class="slideshow-shadow">
+    <img class="nature2" src="images/anvil.jpg" width="100%">
+    <img class="nature2" src="images/sail-boat.jpg" width="100%">
+    <img class="nature2" src="images/blacksmith.jpg" width="100%">
+    <div class="slide-buttons">
+      <div>
+          <a onclick="myShow2.previous()" class="previous round">&#8249;</a>
+      </div>
+      <div>
+          <a onclick="myShow2.next()" class="next round">&#8250;</a>
+      </div>
+    </div>
+  </div>
+    
+    <script>
+    myShow2 = w3.slideshow(".nature2", 0);
+    </script>
+</section>
+<section class="wood-work">
+    <h1 class="section-title">Wood Work</h1>
+      <div class="slideshow-shadow">
+          <img class="nature3" src="images/anvil.jpg" width="100%">
+          <img class="nature3" src="images/sail-boat.jpg" width="100%">
+          <img class="nature3" src="images/blacksmith.jpg" width="100%">   
+          <div class="slide-buttons">
+              <div>
+                  <a onclick="myShow3.previous()" class="previous round">&#8249;</a>
+              </div>
+              <div>
+                  <a onclick="myShow3.next()" class="next round">&#8250;</a>
+              </div>
+            </div> 
+      </div>
+
+      
+      <script>
+      myShow3 = w3.slideshow(".nature3", 0);
+      </script>
+
+</section>
+
+<section class="form-section">
+    <h3 class="section-title">Contact Form</h3>
+  <div class="form-container">
+      <form action="mailto:someone@example.com?subject=New%20Inquery" method="post" enctype="text/plain">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="First Name">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Last Name">
+      
+      <label for="city">Country</label>
+      <input type="text" id="city" name="city" placeholder="City">
+      <label for="state">Country</label>
+      <input type="text" id="state" name="state" placeholder="State">
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Please enter inqueries here." style="height:200px"></textarea>
+      <div class="submit-button">
+          <input type="submit" value="Submit">
+      </div>
+      
+    </form>
+  </div>
+</section>
+<br></br>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                Site Created by <a href="https://www.robertvaccaro.com" target="_blank">Robert Vaccaro</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<br></br>
+<br></br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/jquery.fancybox.pack.js"></script>
+
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
